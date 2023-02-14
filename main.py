@@ -17,22 +17,16 @@ command = input("Введите пожалуйста команду: ")
 
 match command:
     case "list":
-        print("OK")
         notes_list()
     case "add_New":
-        print("Not Found")
         notes_add()
     case "add":
-        print("I'm a teapot")
         notes_addContinue()
     case "dateSelect":
-        print("Not Found")
         notes_dateSelect()
     case "delete":
-        print("I'm a teapot")
         notes_delete()
     case "edit":
-        print("I'm a teapot")
         notes_edit()
     case _:
         print("Warring: Неизвестная команда")
